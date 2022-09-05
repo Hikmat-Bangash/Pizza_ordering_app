@@ -1,0 +1,97 @@
+
+.container{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(218, 55, 55);
+    color: white;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 70%;
+}
+.logo{
+    font-size: large;
+    margin-right: 10px;   
+    
+}
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,Arial, Helvetica, sans-serif;
+    color: #e0dfdc;
+/* background: #556677; */
+letter-spacing: .1em;
+text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+}
+
+.text{
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:3;
+}
+.lists{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.li{
+    padding: 0 2rem;
+    font-size:large;
+   cursor: pointer;
+}
+
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: blue;
+}
+.cart{
+    position: relative;
+    right: 2.5rem;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.cartno{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    font-size: medium;
+    background-color: white;
+    padding:0px 6px;
+    font-weight: bold;
+    border-radius: 100%;
+    color: rgb(207, 15, 15);
+}
+
+@media screen and (max-width: 480px) {
+    .center {
+      display: none;
+    }
+  
+  }
